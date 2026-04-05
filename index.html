@@ -1,34 +1,153 @@
-<html>
-    <head>
-        <title>Sports Bike</title>
-    </head>
-    <body">
-        <center>
-        <h1 style="color: blue;">Raja Sports Bikes</h1>
-        <p>This Bike company is model of the Sports Bikes Only </p>
-        <hr>
-        <img src="Bikephoto.jpg">
-        <h2>The Mostly Salesed Models are</h2>
-        <table>
-            <tr>
-              <td><u1>
-              <li>R15 V4 Yamaha</li>
-              <li>MT Yamaha</li>
-              <li>NS Pulsare</li>
-              </td></u1>
-            </tr>
-        </table>
-        <h2>    
-            <td><img src="V4.jpg"></td><br> 
-             <a href="R15.html">
-                R15 V4 Yamaha</a><br>
-            <td><img src="MT.jpg"></td><br>
-             <a href="MT.html">
-                MT Yamaha</a><br>
-            <td><img src="NS.jpg"></td><br>
-             <a href="NS.html">
-                NS Pulsare</a><br>
-        </h2>
-        </center>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contra</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="nav">
+        <h1>Contra</h1>
+        <div class="menu">
+            <p class="menu-link"><a href="index.html">Home</a></p>
+            <p class="menu-link"><a href="collection.html">Collection</a></p>
+            <p class="menu-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align:right">
+            <i class="fa-solid fa-xmark" onclick="hidebar()"></i>
+        </p>
+        <div class="side-menu">
+            <p class="side-navbar-links"><a href="index.html">Home</a></p>
+            <p class="side-navbar-links"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-links"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <div class="header">
+        <div>
+            <h1>Level up your style</h1>
+            <p>With our stunning collections</p>
+            <button class="header-button"  onclick="location.href='collection.html'">Shop Now</button>
+        </div>
+        <div>
+            <img src="main.webp" class="image1">
+        </div>
+    </div>
+    <div class="service">
+        <div class="container-1">
+            <h1>We provide Best</h1>
+            <h2>Customer Experrience</h2>
+        </div>
+
+        <div>
+            <p>|We ensure that our customer havve the best shopping experience|</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="service-box">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Deliver your items quickly and efficiently</p>
+        </div>
+        <div class="service-box">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Secure Payment</h3>
+            <p>Shop with confidence using our secure payment options</p>
+        </div>
+        <div class="service-box">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Get assistance whenever you need it and support it ww will quick responsive</p>
+        </div>
+    </div>
+    <div>
+        <h2 style="position: relative; left: 50px;" class="new">New Arrivals</h2>
+        <div class="new-arrival">
+            <div class="new-arrival-container">
+                <img src="shirt-1.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="new-arrival-container">
+                <img src="shirt-2.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="new-arrival-container">
+                <img src="shirt-3.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="new-arrival-container">
+                <img src="shirt-4.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+     <div>
+        <h2 style="position: relative; left: 50px;" class="most">Most Wanted</h2>
+        <div class="new-arrival">
+            <div class="new-arrival-container">
+                <img src="pant-1.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="new-arrival-container">
+                <img src="pant-2.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="new-arrival-container">
+                <img src="pant-3.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="new-arrival-container">
+                <img src="pant-5.jpg" style="height: 200px; width: 200px;">
+                <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+<div class="news">
+    <h2>Join our news letter</h2>
+    <p>Subscribe to our newsletter to stay updated with the latest news and offers. </p>
+        <div>
+            <input type="email" placeholder="Enter your email"><br>
+            <center><button>Subscribe</button></center>
+        </div>
+        <div class="footer">
+            <h2>Contra</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati porro tenetur commodi saepe .</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <p>@ 2026 Contra.com</p>
+        </div>
+   
+</div>
+    <script src="script.js"></script>
+</body>
+
+
 </html>
